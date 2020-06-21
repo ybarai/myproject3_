@@ -1,0 +1,147 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #FFE4E1;
+	font-family: American Typewriter, serif;
+}
+
+/* Header */
+#header-nav{
+	background-color: #F0F8FF;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand{
+	padding-top: 15px;
+	height: auto;
+}
+
+.navbar-brand h1 {
+	color: black;
+	margin: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-button {
+	margin-top: 16px;
+}
+
+#nav-list {
+	background-color: #F0F8FF;
+	padding: 30px;
+	margin-top: 0;
+}
+
+#nav-list a {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list hr {
+	height: 1px;
+	background-color: #BC8F8F;
+	border: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #BC8F8F;
+}
+
+/** Header End **/
+
+/** Main content **/
+#heading{
+	font-size: 1.5em;
+    margin: 50px;
+    color: black;
+}
+
+#chicken{
+	background-color: #BC8F8F;
+	border: 1px solid black;
+	padding: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: black;
+	float: left;
+}
+
+#beef{
+	background-color: #BC8F8F;
+	border: 1px solid black;
+	padding: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: black;
+	float: left;
+}
+
+#sushi{
+	background-color: #BC8F8F;
+	border: 1px solid black;
+	padding: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: black;
+	float: left;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+/** Main Content End **/
+
+/** Medium Devices**/
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/**Small devices**/ 
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+/** Extra Small Devices**/
+@media (max-width: 767px){
+	#heading {
+		margin-top: 20px;
+	}
+	#chicken {
+		margin-left: 10px;
+		width: 95%;
+		margin-top: 20px;
+	}
+	#beef {
+		margin-left: 10px;
+		width: 97%;
+
+	}
+	#sushi {
+		margin-left: 10px;
+		width: 97%;
+
+	}
+	#main-content{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
